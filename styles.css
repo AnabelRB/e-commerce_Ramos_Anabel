@@ -1,5 +1,55 @@
-.card{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjusting spacing between cards */
+.card-wrapper {
+    margin-bottom: 1.5rem; /* Adds space below each card */
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Footer styles */
+footer {
+    border-top: 1px solid #ddd;
+}
+
+/* Spacing in the grid system */
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-3 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
