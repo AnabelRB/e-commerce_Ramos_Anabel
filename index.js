@@ -12,6 +12,7 @@ function cards() {
             <div class="card-body">
               <h5 class="card-title">Card ${i}</h5> 
               <p class="card-text">Esta es la card numero ${i}.</p>
+              <a href="./producto.html"><botoon>Ver mas...</botoon></a>
             </div>
           </div>
         </div>
