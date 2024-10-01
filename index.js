@@ -12,14 +12,14 @@ function cards() {
             <div class="card-body">
               <h5 class="card-title">Card ${i}</h5> 
               <p class="card-text">Esta es la card numero ${i}.</p>
-              <a href="./producto.html"><botoon>Ver mas...</botoon></a>
+              <a href="./producto.html"><button>Ver más...</button></a>
             </div>
           </div>
         </div>
     `);
   }
 
-  document.querySelector("section").innerHTML = array.join("");
+  document.querySelector(".row").innerHTML = array.join("");
 }
 
-cards();
+document.addEventListener("DOMContentLoaded", cards);
